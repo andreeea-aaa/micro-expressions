@@ -84,7 +84,7 @@ Adapt the script if your dataset uses different folder names (e.g. DFD real/fake
 ## 4. Pipeline Order
 
 1. **Download** Celeb-DF v2 and DFD from the Kaggle links above.
-2. **OpenFace:** Set up Docker per [OpenFace Docker wiki](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Docker), then run `cisis/openface.py` (after editing paths and container name).
+2. **OpenFace:** Set up Docker per [OpenFace Docker wiki](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Docker), then run `openface.py` (after editing paths and container name).
 3. **Organize:** Run `organize.py` so data is in `real/person_XX/` and `fake/person_XX/` with the correct naming.
 4. **Analysis:**
    - **Gaze only:** `python eyegaze.py`
